@@ -209,10 +209,10 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     width: "100%",
-    marginBottom: theme.spacing(1),
+    marginBottom: theme.spacing(2),
   },
   table: {
-    minWidth: 750,
+    minWidth: 500,
   },
   visuallyHidden: {
     border: 0,

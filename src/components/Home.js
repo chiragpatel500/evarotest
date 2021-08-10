@@ -89,7 +89,7 @@ export default function Home() {
           KeyboardButtonProps={{
             "aria-label": "change date",
           }}/></Grid>
-               <Grid item xs={12} sm={6}>
+              <Grid item xs={12} sm={6}>
         <KeyboardTimePicker
           margin="normal"
           id="time-picker"
