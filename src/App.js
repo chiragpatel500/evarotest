@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import TopNav from "./components/TopNav"
 import Home from "./components/Home";
 import Eval from "./components/Eval";
-import TimeLog from "./components/timelog";
+import TimeLog from "./components/TimeLog";
 
 
 function App() {
