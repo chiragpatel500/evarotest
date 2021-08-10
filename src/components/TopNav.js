@@ -27,11 +27,14 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6"  className={classes.title}>
+          <Typography variant="h6" className={classes.title}>
             <Link to="/TimeLog">TimeLog</Link>
           </Typography>
           <Typography variant="h6" className={classes.title}>
             <Link to="/Home">Time App</Link>
+          </Typography>
+          <Typography variant="h6" className={classes.title}>
+            <Link to="/Eval">Final Evaluation</Link>
           </Typography>
         </Toolbar>
       </AppBar>
