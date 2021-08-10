@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import TopNav from "./components/TopNav"
+import TopNav from "./components/TopNav";
 import Home from "./components/Home";
 import Eval from "./components/Eval";
 import TimeLog from "./components/TimeLog";
