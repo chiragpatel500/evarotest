@@ -1,15 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-// export default function Timelog() {
-//   return (
-//     <div>
-//       Hello There
-//     </div>
-//   )
-// }
-
-
 import PropTypes from 'prop-types';
 import { alpha } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
