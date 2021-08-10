@@ -16,7 +16,7 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/TimeLog">
-            <Timelog/>
+            <TimeLog/>
           </Route>
           <Route exact path="/Eval">
             <Eval/>
