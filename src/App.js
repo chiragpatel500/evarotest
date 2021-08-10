@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import TopNav from "./components/TopNav"
 import Home from "./components/Home";
 import Eval from "./components/Eval";
-import TimeLog from "./components/TimeLog";
+import TimeLog from "./components/timelog";
 
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
             <Home />
           </Route>
           <Route exact path="/TimeLog">
-            <TimeLog/>
+            <TimeLog />
           </Route>
           <Route exact path="/Eval">
-            <Eval/>
+            <Eval />
           </Route>
           <Route exact path="/Home">
             <Home />
