@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import TimeLog from "./TimeLog";
 import "date-fns";
 import Grid from "@material-ui/core/Grid";
 import DateFnsUtils from "@date-io/date-fns";
@@ -114,7 +115,8 @@ export default function Home() {
       </Grid>
     </MuiPickersUtilsProvider>
           </Grid>
-          <Button
+          <Link to="/TimeLog">
+            <Button
             type="submit"
             fullWidth
             variant="contained"
@@ -122,7 +124,8 @@ export default function Home() {
             className={classes.submit}
           >
             Submit
-          </Button>
+            </Button>
+          </Link>
         </form>
       </div>
     </Container>

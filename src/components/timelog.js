@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import clsx from "clsx";
@@ -17,20 +18,20 @@ import Paper from "@material-ui/core/Paper";
 import Checkbox from "@material-ui/core/Checkbox";
 import IconButton from "@material-ui/core/IconButton";
 import Tooltip from "@material-ui/core/Tooltip";
+import { Button } from "@material-ui/core";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 // import Switch from '@material-ui/core/Switch';
 import DeleteIcon from "@material-ui/icons/Delete";
 import FilterListIcon from "@material-ui/icons/FilterList";
-
-function TimeLog(name,Days,Hours,Total) {
-  return { name,Days,Hours,Total};
+import Eval from "./Eval";
+function TimeLog(name, Days, Hours, Total) {
+  return { name, Days, Hours, Total };
 }
 
-const rows = [
-  TimeLog("Mike", 305, 3.7, 67, 4.3),
-  TimeLog("Tom", 452, 25.0, 51, 4.9),
-  TimeLog("John", 262, 16.0, 24, 6.0),
-];
+
+  const rows = [ TimeLog("Mike",), TimeLog("Tom",), TimeLog("John", ), ];
+<Link to="/Eval.js">
+</Link>;
 
 function descendingComparator(a, b, orderBy) {
   if (b[orderBy] < a[orderBy]) {
@@ -68,7 +69,6 @@ const headCells = [
   { id: "Days", numeric: true, disablePadding: false, label: "Days" },
   { id: "Hours", numeric: true, disablePadding: false, label: "Hours" },
   { id: "Total", numeric: true, disablePadding: false, label: "Total" },
- 
 ];
 
 function EnhancedTableHead(props) {
@@ -163,7 +163,8 @@ const EnhancedTableToolbar = (props) => {
       })}
     >
       {numSelected > 0 ? (
-        <Typography
+       
+<Typography
           className={classes.title}
           color="inherit"
           variant="subtitle1"
@@ -178,7 +179,7 @@ const EnhancedTableToolbar = (props) => {
           id="tableTitle"
           component="div"
         >
-          Nutrition
+           <Button><Link to="/Eval.js"> Hours and days worked</Link></Button>
         </Typography>
       )}
 
